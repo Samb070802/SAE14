@@ -2,7 +2,8 @@
 
 {% block body %}
  
- <body class="bg-image1"><h1>Discover my space</h1>
+ <body class="bg-image1">
+ <h1>Discover my space</h1>
 <div class="bg-text">
   <h1>I am Mamasow Samb.</h1>
   <p> I was born on August,7,2002 in DAKAR.</p>

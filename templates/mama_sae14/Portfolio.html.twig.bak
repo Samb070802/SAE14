@@ -2,7 +2,7 @@
 
 
 {% block body %}
-     
+
   <div class="row">
        <div class="col-4">
 	      
@@ -20,13 +20,5 @@
         
  <figcaption class="blockquote-footer">
   
-  
-    
-	         </div>
-  
-</body>
-<footer>
-<form>
-	   
-	   </form>
+</div>
 {% endblock %}

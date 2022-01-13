@@ -2,7 +2,7 @@
 
 
 {% block body %}
-  <body class="bg-image1">   
+    
 <h1>Mon CV</h1>
 
 
