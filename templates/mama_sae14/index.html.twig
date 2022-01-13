@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon projet!{% endblock %}
+
+
+{% block body %}
+     <header class="main head">
+        <nav>
+             <h1 id="logo"> Ma page </h1>
+            <ul>
+			     
+                 <li><a href="#">Accueil</a></li>
+                 <li><a href="#">Curriculum-Vitae</a></li>
+                 <li><a href="#">Portfolio</a></li>
+				 <li><a href="#">Contact</a></li>
+				 
+            </ul>
+        </nav>
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Bonjour {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ 'C:/Users/mamasow samb/symfony/SAE14/src/Controller/MamaSae14Controller.php'|file_link(0) }}">src/Controller/MamaSae14Controller.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'C:/Users/mamasow samb/symfony/SAE14/templates/mama_sae14/index.html.twig'|file_link(0) }}">templates/mama_sae14/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}

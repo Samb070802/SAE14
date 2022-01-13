@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+  <body class="bg-image1">   
+<h1>Mon CV</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" class="btn">Download CV</a>
+	 
+{% endblock %}

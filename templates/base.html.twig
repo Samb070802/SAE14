@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Ma page!{% endblock %}</title>
+        <link rel= "stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+		<link rel= "stylesheet" href="{{ asset('style1.css') }}">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="collapse navbar-collapse" id="navbarColor04">
+				<ul class="navbar-nav me-auto">
+				   
+					</li>
+					<li class="nav-item">
+						<a class="nav-link accueil-toggle" data-bs-toggle="Accueil" href="/Accueil" role="button" aria-haspopup="true" aria-expanded="false">Accueil</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link Curriculum-vitae-toggle" data-bs-toggle="Curriculum-Vitae" href="/Curriculum-Vitae" role="button" aria-haspopup="true" aria-expanded="false">Curriculum-Vitae</a>
+					</li>
+					
+					<li class="nav-item">
+					<a class="nav-link portfolio-toggle" data-bs-toggle="Portfolio" href="/Portfolio" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+					<li class="nav-item">
+						<a class="nav-link Contact-toggle" data-bs-toggle="Ma page" href="/Contact" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+					
+				</ul>
+			</div>
+			</nav>
+		<div class="bg-image">
+			<div class="container">
+		   {% block body %}{% endblock %}
+		   </div>
+	   </div>
+	   <footer id="nav-footer" class="page-footer">
+	        <div class="content-container">
+			    <div class="page-footer-logo">
+				<div class="social social-média">
+			</div>
+				<p id="license" class="footer-license">
+					© 2021-
+					2022
+					Mamasow Samb
+				</p>
+			</div>
+			</div>
+		</footer>
+	</body>
+
+				
+	   
+	   
+	    
+       
+	   
+	   {% block javascripts %}{% endblock %}
+	    
+	 
+</html>
+
