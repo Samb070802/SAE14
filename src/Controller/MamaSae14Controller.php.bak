@@ -38,11 +38,19 @@ class MamaSae14Controller extends AbstractController
         ]);
     }
 	/**
-     * @Route("/Contactez-moi", name="Contactez-moi")
+     * @Route("/Contact", name="Contact")
      */
-    public function Contactezmoi()
+    public function Contact()
     {
-        return $this->render('mama_sae14/Contactez-moi.html.twig', [
+        return $this->render('mama_sae14/Contact.html.twig', [
+            'controller_name' => 'MamaSae14Controller',
+        ]);
+	 /**
+     * @Route("/En savoir plus", name="En savoir plus)
+     */
+    public function Ensavoirplus()
+    {
+        return $this->render('Accueil/En savoir plus....html.twig', [
             'controller_name' => 'MamaSae14Controller',
         ]);
     }

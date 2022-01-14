@@ -2,24 +2,125 @@
 
 
 {% block body %}
+  
+  
+
+ 
+    <head>
+        <h1>CV de Mamasow Samb</h1>
+    </head>
+  
+    <section>
+        <div class="photo">
+            <img src="/imagesae/moi.jpg" alt="Ma photo de profil">
+        </div>
+        <div class="prez">
+            <h2>Qui suis-je ?</h2>
+            <p>Je suis étudiante en 1ère année de formation réseaux et télécommunications.Etant intéressée par la création de site Web,
+			je souhaite intégrer une école spécialisée en développement Web.</p>
+            <a href="#" download>Télécharger mon CV</a>
+        </div>
+        <div class="contact">
+            <h2>Informations de contact</h2>
+            <div class="contact-flex">
+                <p>Nom : </p>
+                <p>Mamasow Samb</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse : </p>
+                <p>4, impasse champromis, 42300 Roanne</p>
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>0753684319</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail : </p>
+                <p>msowsamb02@gmail.com</p>
+				</div>
+            
+			<div class="social">
+                <a href="#"><img src="/imagesae/s1i.jpg" alt="Logo Insta"></a>
+                <a href="#"><img src="/imagesae/s1s.jpg" alt="Logo snap"></a>
+                <a href="#"><img src="/imagesae/s1w.jpg" alt="Logo whtsp"></a>
+                
+            </div>
+        </div>
+		</section>
     
-<h1>Mon CV</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="#" class="btn">Download CV</a>
-	 
+    <section>
+        <h2>Expériences professionnelles</h2>
+		<p> Aucune </p>
+	</section>
+	<section>
+        <h2>Formation</h2>
+        <div class="exp">
+            
+            <div class="exp-info">
+                <h3>1ere année but RT</h3>
+                <h4>2021 - 2022</h4>
+            </div>
+            <div class="exp-desc">
+                <p>IUT de Roanne</p>
+            </div>
+        </div>
+        <div class="exp">
+            
+            <div class="exp-info">
+                <h3>Baccalauréat S2,sciences humaines</h3>
+                <h4>2020 - 2021</h4>
+            </div>
+            <div class="exp-desc">
+                <p>Cours Sacré-coeur</p>
+            </div>
+        </div>
+        <div class="exp">
+            
+            <div class="exp-info">
+                <h3>Brevet de fin d'étude moyen</h3>
+                <h4>2017 - 2018</h4>
+            </div>
+            <div class="exp-desc">
+                <p>Collège privé protestant</p>
+            </div>
+        </div>
+    </section>
+	<section>
+        <h2>Compétences</h2>
+        <h3 class="h3gauche">Professionnelles</h3>
+        <div class="comp">
+            <p>HTML / CSS</p>
+            <div class="conteneur-barre"><span class="barre c60"></span></div>
+        </div>
+        <div class="comp">
+            <p>Maitraise de la langue</p>
+            <div class="conteneur-barre"><span class="barre c80"></span></div>
+        </div>
+        
+        <h3 class="h3gauche">Personnelles</h3>
+        <div class="comp2">
+            <p>Créativité</p>
+            <p>90%</p>
+            <div class="conteneur-barre2"><span class="barre c90"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Adaptation</p>
+            <p>85%</p>
+            <div class="conteneur-barre2"><span class="barre c85"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Sérieux</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Pédagogie</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
+        </div>
+    </section>
+	
+    
+      
+</body>	 
 {% endblock %}

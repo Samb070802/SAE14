@@ -2,23 +2,65 @@
 
 
 {% block body %}
+ 
+<header>
 
-  <div class="row">
-       <div class="col-4">
-	      
-        <header>
-        <section id="présentation">
-           
-          </section>      
-            </div>
-            <div id="prestations">
-                <div class="imagesPrestations">
-                    
-                    <a href="#"><img src="/imagesae/Port.PNG" alt="portfolio"></a>
-                </div>
-           </div>      			 
-        
+<h1>COMPETENCES</h1>
+       <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>E-PORTFOLIO</h1>
+<hr>
+
+
+<p>Quelques compétences acquises en formation.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/imagesae/R103.jpg" alt="R103" style="width:100%">
+      <h3>Configuration de base du réseau local.</h3>
+      <p>Compétence en câblage,en configuration réseau</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="/imagesae/R104.jpg" alt="R104" style="width:100%">
+      <h3>Lois fondamentales de l'électricité</h3>
+      <p>Usage dal plaque à essai,de l'ampèremètre,de l'oscilloscope,du voltmètre</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="/imagesae/R113.jpg" alt="R113" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="/imagesae/R109.jpg" alt="img" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+</header>            
+
+
+
+	
+	
+
+
+ 
  <figcaption class="blockquote-footer">
   
-</div>
+
 {% endblock %}

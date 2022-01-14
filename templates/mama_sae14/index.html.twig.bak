@@ -12,10 +12,15 @@
                  <li><a href="#">Accueil</a></li>
                  <li><a href="#">Curriculum-Vitae</a></li>
                  <li><a href="#">Portfolio</a></li>
-				 <li><a href="#">Conatct</a></li>
+				 <li><a href="#">Contact</a></li>
 				 
             </ul>
         </nav>
+		
+		<div class="container">
+		   <li><a href="#">En savoir plus...</a></li>
+		  </div>
+		 
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
